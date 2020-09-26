@@ -1,0 +1,599 @@
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 350px;
+
+}
+
+.servicos{
+	text-align: center;
+	width: 100%;
+	background-color: #ccc;
+	border-radius: 4px;
+}
+.servico-detalhe{
+	border-right: 1px solid #ddd;
+	display: inline-block;
+}
+.servico-detalhe i{
+	font-size: 40px;
+	color:#02c39a;
+}
+.detalhe1{
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.detalhe2{
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.detalhe3{
+	width: 30%;
+	margin: 10px;
+	border-right:none;
+	display: inline-block;
+}
+
+.left-categoria{
+	float: left;
+	display: block;
+	margin-left: 9px;
+}
+
+.right-categoria{
+	float: right;
+	margin-right: 9px;
+}
+
+.icon-categoria{
+	margin-top: 20px;
+	left:45%;
+	color: #7b12d0;
+	font-size: 100px;
+	text-align: center;
+	position: absolute;
+}
+
+ .entrar a:hover{
+  text-decoration: underline;
+  color: #ffc107;
+}
+
+.icon-car{
+	margin: 0;
+	padding: 0;
+}
+
+.icon-car:hover{
+	color: #333;
+}
+
+.cart a:hover{
+	color: #646464;
+}
+
+.card-title{
+	width: 100%;
+	padding: 6px 30px;
+	margin: 10px 0;
+	color: white;
+	font-size: 17px;
+	font-weight: lighter;
+	background: #942760;
+
+}
+
+.icon-produto{
+	color:#333;
+	margin: 10px 30px;
+	font-size: 200px;
+}
+
+
+.box-content{
+	background: white;
+	padding: 30px;
+	margin: 10px 0;
+	width: 100%;
+	height: 50%;
+	border-radius: 8px 5px 8px;
+	margin-bottom: 3px;
+}
+
+.box-content h2{
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.box-single-wraper{
+	width: 25%;
+	padding:auto;
+
+}
+
+.box-single{
+	width: 100%;
+	height: 100%;
+	border:1px solid #ccc;
+}
+
+.box-imagem{
+	text-align: center;
+	display: flex;
+	color: #ccc;
+	width: 100%;
+	height: 300px !important;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.box-imagem img.img-loja{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
+}
+
+
+.body-box{
+	padding: 10px;
+}
+
+.body-box p{
+	color:#646464;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+
+.box-imagem h1{
+	color:#646464;
+	width: 100%;
+	text-align: center;
+	font-size: 160px;
+	margin-bottom: 8px;
+}
+
+
+.link{
+	margin-top: 0px;
+	margin: 10px;
+	text-align: center;
+}
+
+.link a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	padding:3px 8px;
+}
+
+.link a:hover{
+	text-decoration: none;
+	color: #646464;
+}
+
+.header-empresa{
+	width: 100%;
+	background: #043480;
+	padding: 40px 0;
+}
+.header-empresa h2:nth-of-type(1){
+	font-size: 50px;
+	color: #048080;
+}
+.header-empresa h2{
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+.header-conteudo-empresa{
+	color: #07a0a8;
+	border-bottom: 1px solid #07a0a8;
+}
+
+.header-conteudo-empresa h2{
+	font-size: 30px;
+	margin: 8px;
+	
+}
+
+section.container-empresa{
+	padding: 50px 0;
+}
+
+.sidebar{
+	margin:0 10px;
+	float: left;
+	width: 22%;
+}
+
+.box-content-sidebar{
+	width: 100%;
+	background:#ddd;
+	margin-bottom: 20px;
+	text-align: left;
+	padding: 15px;
+	color:#0c9489;
+	border-radius: 20px;
+}
+.box-content-sidebar a{
+	display: block;
+	text-decoration: none;
+	margin: 3px;
+	color: #0c9489;
+}
+
+.box-content-sidebar a:hover{
+	display: block;
+	text-decoration: none;
+	color: #0ad1c1;
+}
+
+.box-content-sidebar h3{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.box-content-sidebar input[type=text]{
+	width: 100%;
+	height: 40px;
+	border:1px solid rgb(220,220,220);
+	padding-left:8px;
+}
+
+.box-content-sidebar input[type=submit]{
+	cursor: pointer;
+	background: #0ad1c1;
+	color: white;
+	width: 120px;
+	margin: 4px 0;
+	height: 40px;
+	border:0;
+}
+
+.box-content-sidebar input[type=submit]:hover{
+	background: #09bdae;
+
+}
+
+.box-content-sidebar select{
+	width: 100%;
+	height: 40px;
+	border: 1px solid rgb(220,220,220);
+	padding-left: 8px;
+	margin:10px 0;
+}
+
+.box-content-sidebar li{
+	display: block;
+	margin-bottom: 10px;
+}
+
+ .satisfcao{
+	margin: 0 20px;
+	padding: 0 20px;
+}
+
+ .satisfcao1{
+ 	color: green;
+ 	margin-left: 20px;
+	float: left;
+}
+
+ .satisfcao2{
+ 	color: red;
+ 	margin-right: 20px;
+	float: right;
+}
+
+.conteudo-empresa{
+ float: left;
+ width: 70%;
+ padding: 0 1%;
+}
+
+.header-conteudo-portal{
+	color: #07a0a8;
+}
+
+.header-conteudo-portal h2{
+	font-size: 30px;
+	margin: 8px;
+}
+
+.header-conteudo-portal h2 >span{
+
+	border-top: 4px solid #07a0a8;
+}
+
+.box-single-conteudo{
+	margin: 15px 0;
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.box-single-conteudo h2{
+	color: #646464;
+}
+
+.box-single-conteudo p{
+	color: #646464;
+	font-weight: normal;
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+.paginator{
+	text-align: center;
+}
+
+.paginator a{
+	text-decoration: none;
+	color: #08aabf;
+	display: inline-block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 100px;
+	border: 1px solid rgb(220,220,220);
+}
+
+.paginator a.actie-paage{
+	background: rgb(220,220,220);
+}
+
+section.noticia-single{
+	padding: 40px 0;
+	margin-left: 20%;
+	width: 60%;
+	color:  #646464;
+}
+
+section.noticia-single h1{
+	font-size: 30px;
+	color: #07a0a8;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #646464;
+}
+
+article{
+	padding: 0 100px;
+}
+
+.container-erro-login{
+	text-align: center;
+	background: #faa307;
+	color: white;
+	padding: 9px;
+	border:0;
+	border-radius: 7px;
+}
+
+.container-erro-login h2{
+	font-size: 20px;
+}
+.container-erro-login p{
+	font-size: 15px;
+	margin: 8px 0;
+}
+
+section.noticia-single input[type=text]{
+	width: 100%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 9px;
+}
+
+section.noticia-single textarea{
+	width: 100%;
+	height: 120px;
+	border:1px solid #ccc;
+	padding-left: 9px;
+	margin-top: 8px;
+}
+
+section.noticia-single input[type=submit]{
+	display: block;
+	margin-top: 10px;
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	background: #311b92;
+	color: white;
+	font-size: 17px;
+	border-radius: 10px;
+	border:0;
+}
+
+section.noticia-single input[type=submit]:hover{
+	background: #4527a0;
+	color: #eee;
+}
+
+h2.posta-comentario{
+	background: #5e35d9;
+	color:white;
+	padding: 8px;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+
+.box-coment-noticia{
+	background-color: white;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+}
+/*BOOT estilo*/
+
+.center{
+	text-align: center;
+}
+
+.clear{
+	clear:both;
+}
+
+.tabela-pedidos form {
+	float: right;
+}
+.tabela-pedidos input[type=text]{
+	margin-top:8px;
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+	width: 50%;
+	padding-left: 10px; 
+	height: 40px;
+	border: 1px solid #ccc;
+}
+
+.form-correios input[type=submit]{
+	font-size: 17px;
+	font-weight: 300;
+	color: black;
+}
+
+.form-correios .group-btn{margin-top: 4px;}
+
+.form-correios .group-btn{
+	background: #F7FE2E;
+	border:0;
+	border-radius: 6px;
+	text-decoration: none;
+	padding:8px 18px;
+}
+
+.form-correios .group-btn:hover{
+	text-decoration: none;
+	background: #F4FA58;
+}
+
+.sucesso{
+	border-radius: 7px;
+	padding: 0 10px;
+	background: #a5d6a7;
+	color: white;
+}
+
+.erro{
+	border-radius: 7px;
+	padding: 0 10px;
+	background: #F75353;
+	color: white;
+}
+
+.atencao{
+	border-radius: 7px;
+	padding: 0 10px;
+	background: #faa307;
+	color: white;
+}
+
+
+.contato-container{
+	padding:40px 0;
+	text-align: center;
+}
+
+.contato-container input[type=text]{
+	margin:8px 0;
+	width: 100%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	color: #444;
+}
+
+.contato-container textarea{
+	padding: 8px;
+	margin:8px 0;
+	width: 100%;
+	height: 120px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	resize: vertical;
+	color: #444;
+}
+
+.contato-container input[type=submit]{
+	background: #6200ea;
+	border:0;
+	width: 140px;
+	height: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1224px){
+	.menu-top{
+		width: 100%;
+	}
+	.form-menu{
+      width: 50%;
+}
+
+		.box-single-wraper{
+		width: 100%;
+		min-height: 0;
+	}
+	.box-imagem{
+		width: 100%;
+		min-height: 0;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.box-single-wraper{
+		width: 100%;
+		min-height: 0;
+	}
+	.box-imagem{
+		width: 100%;
+		min-height: 0;
+	}
+	.icon-categoria{display: none;}
+	.sidebar{
+		width: 95%;
+	}
+}
+
+
+
+@media screen and (max-width: 780px){	
+	.conteudo-empresa{
+ 		width: 100%;
+	}
+
+	.sidebar{
+		width: 95%;
+	}
+
+	.icon-car{
+		margin: 9px;
+	}
+	.box-single-wraper{
+		width: 100%;
+		min-height: 0;
+	}
+	.servico-detalhe{
+		width: 90%;
+	}
+}

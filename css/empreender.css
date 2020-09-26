@@ -1,0 +1,77 @@
+section.search1{
+	background:#194275;
+	padding: 30px 0;
+	color:white;
+	text-align: center;
+
+}
+
+section.search1 h2{
+	color: white;
+	font-size: 30px;
+}
+
+section.search1 input[type=text]{
+	width: 100%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 15px;
+}
+
+section.search2{
+	padding: 9px 0;
+	color:white;
+	border-top: 1px solid white;
+	background: #28568f;
+}
+
+.form-group1{
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+
+.form-group1 label{
+	display: block;
+}
+
+.form-group1 input[type=text],
+.form-group1 input[type=number]{
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	border:1px solid #ccc;
+}
+
+section.lista-imoveis{
+	padding: 60px 0;
+
+}
+
+section.lista-imoveis .row-imovel{
+	display: flex;
+	background: #045449;
+	border-radius: 20px
+}
+
+.r1{width: 30%;}
+.r1 img{max-width: 100%; height: 100%;}
+.r2{width: 70%;}
+
+.r2{
+	padding: 15px;
+	color:white;
+	font-size: 15px;
+}
+
+.r2 p{
+	padding: 2px 0;
+	border-bottom: 1px solid #00362e;
+}
+
+@media screen and(max-width: 768px){
+	.form-group1{width: 100%;}
+	
+}

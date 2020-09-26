@@ -1,0 +1,61 @@
+
+.perfil-container{
+	padding:40px 0;
+	text-align: center;
+}
+
+.info-cliente{
+	width: 33.3%;
+	display: inline-block;
+}
+.mensagem{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mensagem .mensagem-viws{
+	width: 50%;
+}
+.perfil-container input[type=text]{
+	margin:8px 0;
+	width: 100%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	color: #444;
+}
+
+
+.perfil-container input[type=email]{
+	margin:8px 0;
+	width: 100%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+	font-size: 16px;
+	max-width: 800px;
+	color: #444;
+}
+
+
+.perfil-container input[type=submit]{
+	background: #6200ea;
+	border:0;
+	width: 28%;
+	height: 40px;
+	color: white;
+	cursor: pointer;
+}
+
+.perfil-container input[type=submit]:hover{
+	background: #7200ea;
+	cursor: pointer;
+}
+
+.perfil-container label{
+	width: 100%;
+	text-align: left;
+	margin: 0;
+}

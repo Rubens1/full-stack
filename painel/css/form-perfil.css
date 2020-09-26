@@ -1,0 +1,93 @@
+.perfil-parent{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 900px;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+    width: 100%;
+    background-color: white;
+   
+}
+.perfil-img{
+    width: 40%;
+}
+.perfil-form{
+    padding-left: 20px;
+    width: 60%;
+}
+.perfil-form label,input{
+    font-size: 15px;
+}
+.perfil-form .custom-file{
+    margin-top: 1rem;
+}
+.perfil-form button{
+    margin-top: 20px;
+}
+.logo-empresa{
+    height: 380px;
+    width: 100%;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.1);
+
+}
+.logo-empresa img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(142, 125, 241, 0.4);
+    border-radius: 5px;
+}
+
+.editar-info-loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.editar-info-loja .senha-loja{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.editar-info-loja .endereco-loja{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 780px){
+    /*.perfil-parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }*/
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo-empresa{
+        width: 150px;
+        height: 150px;
+        margin: 5px 30px;
+    }
+}

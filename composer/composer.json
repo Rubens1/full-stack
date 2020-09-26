@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nesbot/carbon": "^2.30",
+        "flyingluscas/correios-php": "^2.3",
+        "mpdf/mpdf": "^8.0"
+    }
+}

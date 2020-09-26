@@ -1,0 +1,130 @@
+
+footer{
+	background-color: #353745;
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+.f-logo{
+	color:#fff;
+	font-family: 'bebas kai' !important;
+	letter-spacing: 2px;
+	padding: 5px 10px;
+	font-size: 25px;
+}
+
+.secao-superio a,.dwn-secao a{
+	text-decoration: none !important;
+}
+
+.secao-superio ul,.dwn-secao ul{
+	font-family: calibri;
+	margin: 0;
+	padding:0 20px;
+	list-style: none;
+}
+.secao-superio h1,.dwn-secao h1{
+	color:#9697a0;
+	font-size: 20px;
+	font-family: calibri;
+}
+.secao-superio ul li a,.dwn-secao ul li a{
+	font-size: 16px;
+	color:#575a70;
+}
+.secao-superio ul li p{
+	font-size: 14px;
+	color:#575a70;
+	line-height: 10px;
+}
+.secao-superio,.dwn-secao{
+	display: flex ;
+	justify-content: space-between;
+	padding: 3% 0px;
+	margin: 0 5px;
+	width: 80%;
+	flex-wrap: wrap !important;
+}
+.secao-superio{
+	border-bottom: 1px solid #545562;
+}
+.social-icons a{
+	width: 35px;
+	height: 35px;
+	margin: 0px 5px;
+	background-color: #424356;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icons{
+	display: flex;
+}
+.noticia-email input{
+	padding: 7px;
+	border:0;
+	height: 35px;
+	width: 200px;
+	text-align: none;
+
+}
+.social-icons i{
+	color:#fff;
+	font-size: 14px;
+}
+.companhia{
+	font-family: calibri;
+	font-size: 12px;
+	color: #b3b3b3;
+}
+.secao-superio ul li a:hover,.dwn-secao ul li a:hover{
+	color:#9697a0;
+}
+.social-icons a:hover{
+	text-decoration: none;
+	transition: all ease 0.5s;
+	background-color: #02c39a;
+}
+.social-icons a:hover i{
+	color: #424356;
+}
+
+@media(max-width: 1024px){
+	.noticia-email{
+		margin: 20px auto;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: center;
+	}
+	.noticia-email h1{
+		margin: 20px;
+	}
+}
+
+@media(max-width: 720px){
+	.secao-superio,.dwn-secao{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.secao-superio ul h1,.dwn-secao ul h1{
+		font-size: 25px;
+	}
+	.secao-superio ul li,.dwn-secao ul li{
+		text-align: center;
+		margin: 10px;
+	}
+	.secao-superio ul li a,.dwn-secao ul li a{
+		font-size: 20px;
+	}
+	.f-logo{
+		border:1px solid #545562;
+	}
+	.noticia-email{
+		display: block;
+	}
+}

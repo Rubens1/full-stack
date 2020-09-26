@@ -1,0 +1,68 @@
+.verification{
+	background-color: #fff;
+	width: 100%;
+	padding-top: 100px;
+	height: 420px;
+	margin: 30px 9px;
+}
+.verification .text{
+	width: 100%;
+	text-align: center;
+}
+
+.verification .text a{
+	text-decoration: none;
+}
+.logar form{
+	margin: auto;
+	width: 40%;
+	display: grid;
+}
+.logar form .senha{
+	margin-top: 5px;
+	margin-left: 70%;
+}
+.logar form .senha-empresa{
+	margin-top: 5px;
+	margin-left: 50%;
+}
+.verification form .form-login{
+	border: 0;
+	border-bottom: 1px solid #ccc;
+}
+.verification form label{
+	width: 100%;
+	float: right;
+}
+.verification form .btn-login{
+	margin-top: 10px;
+	border:0;
+	padding: 9px;
+	border-radius: 4px;
+	background: #6200ea;
+	color: white;
+}
+@media screen and (max-width: 1080px){
+	.logar form .senha{
+	margin-top: 8px;
+	margin-left: 70%;
+	}
+	.logar form{
+	width: 60%;
+	}
+}
+@media screen and (max-width: 780px){
+	.verification{
+	width: 100%;
+	margin: 50px 10px;
+	}
+
+	.logar form .senha{
+	margin-top: 8px;
+	margin-left: 50%;
+	}
+
+.logar form{
+	width: 60%;
+	}
+}

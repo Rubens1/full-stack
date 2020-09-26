@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+=======
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+>>>>>>> a40275e3a7d3f51fc144a18135949a75f3f9dc93
+=======
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+>>>>>>> a40275e3a7d3f51fc144a18135949a75f3f9dc93
+Options -Indexes

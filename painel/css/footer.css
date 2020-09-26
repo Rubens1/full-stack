@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color:#003049;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 9px 9px 0 0;
+}
+footer p{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
